@@ -36,7 +36,7 @@ function stop (){
     resetButton.disabled = false;
 }
 
-function reset (){
+function resetTime (){
     clearInterval(timer);
 
     elapsedTime = 0;
